@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>21BCE7988</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>JSON Input Form</h1>
+        <form id="jsonForm">
+            <textarea id="jsonInput" placeholder='Enter JSON'></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <p id="error" class="error"></p>
+        <div id="dropdownContainer" class="hidden">
+            <label for="multiSelect">Select Options:</label>
+            <select id="multiSelect" multiple>
+                <option value="alphabets">Alphabets</option>
+                <option value="numbers">Numbers</option>
+                <option value="highest_lowercase">Highest Lowercase Alphabet</option>
+            </select>
+        </div>
+        
+        <div id="responseContainer"></div>
+       
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
